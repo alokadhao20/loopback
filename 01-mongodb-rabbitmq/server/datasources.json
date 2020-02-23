@@ -1,0 +1,26 @@
+{
+  "inmemory": {
+    "name": "inmemory",
+    "connector": "memory"
+  },
+  "db": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "mongodb://localhost:27017/userLogin",
+    "database": "userLogin",
+    "password": "",
+    "name": "db",
+    "user": "",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
+  },
+  "redis": {
+    "host": "localhost",
+    "port": 6379,
+    "url": "redis://localhost:6379/userLogin",
+    "password": "",
+    "name": "redis",
+    "db": null,
+    "connector": "kv-redis"
+  }
+}
